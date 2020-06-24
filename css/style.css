@@ -1,12 +1,20 @@
-body{
+
+*{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 /*common tag*/
 
 .wrapper{
 	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.wrapper2{
+	width: 70%;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -126,3 +134,159 @@ header{
 }
 
 /*banner end*/
+
+/* service start */
+.service{
+	padding: 20px 0;
+	background-color: #121B2C;
+}
+
+.single-service{
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+	padding: 30px 15px;
+	border-right: 1px solid #fff;
+}
+
+.top{
+	overflow: hidden;
+}
+
+.t_img{
+	width: 25%;
+	margin-right: 5%;
+	float: left;
+}
+
+.t_img img{
+	width: 100%;
+}
+
+.t_text{
+	width: 65%;
+	float: left;
+	padding-top: 15px;
+	overflow: hidden;
+}
+
+.t_text h2{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #fff;
+	margin: 0;
+}
+
+
+.t_text h3{
+	font-family: sans-serif;
+	font-size: 24px;
+	color: #0177BD;
+	margin: 0;
+}
+
+.bottom{
+	margin-top: 20px;
+}
+
+.bottom p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #fff;
+	line-height: 24px;
+}
+
+.single-service:last-child{
+	margin-right: 0;
+	padding-right: 0;
+	border-right: none;
+}
+/* service end */
+
+/* contact start */
+.contact{
+	background-color: #040811;;
+}
+
+.single-contact{
+	padding: 30px 0 20px;
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+	
+}
+
+.single-contact h2{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: #fff;
+	margin-top: 30px;
+}
+
+.single-contact h2 span{
+	font-weight: 700;
+	color: #0177BD;
+}
+
+.single-contact:last-child{
+	margin-right: 0;
+}
+
+.text{
+	margin-top: 15px;
+}
+
+.text, .call, .email{
+	margin-bottom: 10px;
+}
+
+.text p, .call p, .email p{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #fff;
+	line-height: 21px;
+}
+
+.box{
+	overflow: hidden;
+}
+
+.left{
+	width: 45%;
+	margin-right: 5%;
+	
+	float: left;
+}
+
+.left img{
+	width: 100%;
+}
+
+.right{
+	width: 50%;
+	margin-top: 15px;
+	float: left;
+}
+
+.right h2{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: #fff;
+	margin-top: 0;
+}
+
+.right h1{
+	font-family: sans-serif;
+	font-size: 24px;
+	color: #0177BD;
+	margin-bottom: 15px;
+}
+
+.right img{
+	width: 100%;
+}
+
+/* contact end */
